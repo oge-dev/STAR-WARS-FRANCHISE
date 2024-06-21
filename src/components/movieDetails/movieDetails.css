@@ -83,12 +83,35 @@
   padding-left: 1.8rem;
 }
 @media (max-width: 630px) {
+  .movieDetails a {
+    font-size: var(--unnamed-font-size-14);
+  }
+  .title-director-producer h2 {
+    font-size: var(--unnamed-font-size-32);
+  }
+  .title-director-producer p {
+    font-size: var(--unnamed-font-size-14);
+  }
+  .desc h4 {
+    font-size: var(--unnamed-font-size-16);
+  }
+  .desc p {
+    font-size: var(--unnamed-font-size-14);
+  }
+  .characters h3,
+  .planets h3,
+  .species h3,
+  .starships h3,
+  .vehicle h3 {
+    font-size: var(--unnamed-font-size-16);
+  }
   .characters ul,
   .planets ul,
   .species ul,
   .starships ul,
   .vehicle ul {
     grid-template-columns: repeat(2, 1fr);
+    font-size: var(--unnamed-font-size-14);
   }
 }
 @media (max-width: 425px) {

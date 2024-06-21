@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import MovieDetails from "../../components/movieDetails/movieDetails.jsx";
 import Loader from "../../components/loader/loader.jsx";
-import "./moviePage.css";
 
 const MoviePage = () => {
   const { id } = useParams();
