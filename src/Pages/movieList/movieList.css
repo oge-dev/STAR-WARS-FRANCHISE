@@ -33,7 +33,7 @@
 .movie-content {
   width: 100%;
 }
-.title-release_date{
+.title-release_date {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.7rem;
@@ -50,7 +50,6 @@
   font-size: var(--unnamed-font-size-14);
   font-weight: var(--unnamed-font-weight-normal);
   color: var(--unnamed-color-grey);
-  
 }
 
 .movie-list .opening_crawl {

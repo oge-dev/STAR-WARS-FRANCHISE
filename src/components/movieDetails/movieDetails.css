@@ -1,14 +1,84 @@
-.movieDetails-container{
-    
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.movieDetails-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.movieDetails{
-    width: 80%;
-    background-color: rgb(35, 35, 35);
-    margin-top: 20px;
+.movieDetails {
+  width: 100%;
+  max-width: 1110px;
+  background-color: var(--unnamed-color-darkgrey);
+  margin: 20px;
+  padding: 30px;
+  border-radius: 0.5rem;
+  color: var(--unnamed-color-ffffff);
 }
-.movieDetails a{
-    text-decoration: none;
+.movieDetails a {
+  text-decoration: none;
+  color: var(--unnamed-color-grey);
+  font-size: var(--unnamed-font-size-16);
+  margin-bottom: 1.5rem;
+  font-weight: var(--unnamed-font-weight-400);
+}
+.title-director-producer {
+  text-align: center;
+  margin: 0 0 30px;
+}
+.title-director-producer h2 {
+  font-family: "Star Jedi", var(--unnamed-font-family-OpenSans);
+  font-size: var(--unnamed-font-size-40);
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: var(--unnamed-font-weight-600);
+}
+.title-director-producer p {
+  margin-bottom: 1rem;
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-400);
+}
+.desc {
+  margin: 0 0 30px;
+}
+.desc h4 {
+  margin: 0 0 15px;
+  font-size: var(--unnamed-font-size-18);
+  font-weight: var(--unnamed-font-weight-600);
+  color: var(--unnamed-color-grey);
+}
+.desc p {
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-400);
+}
+.movieDetails .hr {
+  background-color: var(--unnamed-color-gray);
+  height: 2px;
+  border: none;
+}
+.characters,
+.planets,
+.species,
+.starships,
+.vehicle {
+  margin: 0 0 30px;
+  padding: 30px 0 0;
+}
+.characters h3,
+.planets h3,
+.species h3,
+.starships h3,
+.vehicle h3 {
+  margin: 0 0 15px;
+  font-size: var(--unnamed-font-size-18);
+  font-weight: var(--unnamed-font-weight-600);
+  color: var(--unnamed-color-grey);
+}
+.characters ul,
+.planets ul,
+.species ul,
+.starships ul,
+.vehicle ul {
+  font-size: var(--unnamed-font-size-16);
+  font-weight: var(--unnamed-font-weight-400);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 1.8rem;
 }
