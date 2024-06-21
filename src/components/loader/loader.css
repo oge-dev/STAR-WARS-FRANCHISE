@@ -1,0 +1,18 @@
+.svg-loading-icon-container {
+    text-align: center;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .svg-loading-icon-container svg {
+    width: 102.36px;
+    height: 80vh;
+    fill: var(--unnamed-color-yellow);
+    animation: rotate 2s linear infinite;
+  }
+  

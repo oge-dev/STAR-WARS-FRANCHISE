@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 130px;
+  }
+  header svg {
+    fill: var(--unnamed-color-yellow);
+    width: 100%;
+    max-width: 450px;
+    height: 75.92px;
+  }
+  
