@@ -14,7 +14,10 @@ What to submit in Citrone
 ● Submit the PR link 
 ● Host your work on Netlify/Github Pages and submit the hosted link
 
-
+star-wars-franchise.vercel.app
+star-wars-franchise.vercel.app
+star-wars-movies
+star-wars-movies-byoge.vercel.app
 
 # problem 2
 
