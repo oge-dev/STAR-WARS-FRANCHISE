@@ -24,7 +24,7 @@ const MovieList = () => {
     axios
       .get("https://swapi.dev/api/films/")
       .then((response) => {
-        setMovies(response.data.results.slice(0, 6)); // Limiting to 6 movies
+        setMovies(response.data.results);
         setError(null);
       })
       .catch((error) => {
@@ -54,16 +54,16 @@ const MovieList = () => {
           >
             <div className="movie-content">
               <div className="title-release_date">
-              <h3 className="title">{movie.title}</h3>
-              <span className="release_date">
-                {new Date(movie.release_date).toLocaleDateString("en-US", {
-                  month: "long",
-                  day: "numeric",
-                  year: "numeric",
-                })}
-              </span>
+                <h3 className="title">{movie.title}</h3>
+                <span className="release_date">
+                  {new Date(movie.release_date).toLocaleDateString("en-US", {
+                    month: "long",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                </span>
               </div>
-              
+
               <p className="opening_crawl">{movie.opening_crawl}</p>
               <hr className="hr" />
               <Link to={`/movie/${index + 1}`}>More info</Link>

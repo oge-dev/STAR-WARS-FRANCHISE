@@ -1,0 +1,14 @@
+.movieDetails-container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.movieDetails{
+    width: 80%;
+    background-color: rgb(35, 35, 35);
+    margin-top: 20px;
+}
+.movieDetails a{
+    text-decoration: none;
+}

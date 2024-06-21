@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import "./movieDetails.css"
 
 const MovieDetails = ({ movie }) => {
   const [details, setDetails] = useState({
@@ -27,8 +28,9 @@ const MovieDetails = ({ movie }) => {
   }, [movie]);
 
   return (
-    <div>
-      <Link to="/">Back to List</Link>
+    <div className="movieDetails-container">
+      <div className="movieDetails">
+      <Link to="/">← Back to list</Link>
       <h2>{movie.title}</h2>
       <p>Director: {movie.director}</p>
       <p>Producer: {movie.producer}</p>
@@ -64,6 +66,8 @@ const MovieDetails = ({ movie }) => {
           <li key={vehicle.url}>{vehicle.name}</li>
         ))}
       </ul>
+      </div>
+      
     </div>
   );
 };
