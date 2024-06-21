@@ -1,16 +1,20 @@
+.movie-list{
+  padding: 20px;
+}
 .movie-list .error-message {
   text-align: center;
   margin-bottom: 20px;
 }
 .movie-list .movieItems {
-  display: grid;
-  grid-template-columns: repeat(3, 350px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
 .movie-list .movie {
   position: relative;
-  width: 100%;
+  width: 350px;
   height: 318px;
   background-size: cover;
   background-position: center;
