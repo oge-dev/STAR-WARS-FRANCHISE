@@ -5,5 +5,5 @@
   color: var(--unnamed-color-ffffff);
   padding-bottom: 2rem;
   -webkit-font-smoothing: antialiased; /* Smoothing for WebKit browsers */
-  -moz-osx-font-smoothing: grayscale;  /* Smoothing for Firefox on macOS */
+  -moz-osx-font-smoothing: grayscale; /* Smoothing for Firefox on macOS */
 }

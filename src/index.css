@@ -24,11 +24,6 @@ html {
   --unnamed-font-size-18: 18px;
   --unnamed-font-size-16: 16px;
   --unnamed-font-size-14: 14px;
-  --unnamed-character-spacing-0: 0px;
-  --unnamed-line-spacing-19: 19px;
-  --unnamed-line-spacing-2: 2px;
-  --unnamed-line-spacing-33: 33px;
-  --unnamed-text-transform-titlecase: titlecase;
 }
 body {
   max-width: 100%;
