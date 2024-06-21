@@ -53,6 +53,7 @@ const MovieList = () => {
             style={{ backgroundImage: `url(${backgrounds[index]})` }}
           >
             <div className="movie-content">
+              <div className="title-release_date">
               <h3 className="title">{movie.title}</h3>
               <span className="release_date">
                 {new Date(movie.release_date).toLocaleDateString("en-US", {
@@ -61,7 +62,10 @@ const MovieList = () => {
                   year: "numeric",
                 })}
               </span>
+              </div>
+              
               <p className="opening_crawl">{movie.opening_crawl}</p>
+              <hr className="hr" />
               <Link to={`/movie/${index + 1}`}>More info</Link>
             </div>
           </div>

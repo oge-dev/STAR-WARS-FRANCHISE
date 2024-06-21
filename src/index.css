@@ -13,9 +13,9 @@ html {
   --unnamed-color-yellow: rgb(255, 232, 31);
   /* Font/text values */
   --unnamed-font-family-OpenSans: "Open Sans", sans-serif;
-  --unnamed-font-style-normal: normal;
-  --unnamed-font-weight-normal: normal;
-  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-700: 700;
+  --unnamed-font-weight-600: 600;
+  --unnamed-font-weight-400: 400;
   --unnamed-App-font-size: 1.6rem;
   --unnamed-font-size-22: 22px;
   --unnamed-font-size-16: 16px;
