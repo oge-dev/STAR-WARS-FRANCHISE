@@ -1,15 +1,15 @@
+/* Centering header content vertically and horizontally */
 header {
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    height: 130px;
-  }
-  header svg {
-    fill: var(--unnamed-color-yellow);
-    width: 100%;
-    max-width: 450px;
-    height: 75.92px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+
+/* Styling SVG inside header */
+header svg {
+  fill: var(--unnamed-color-yellow); /* Yellow color */
+  width: 100%;
+  max-width: 450px;
+  height: 75.92px;
+}

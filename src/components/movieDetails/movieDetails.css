@@ -1,8 +1,10 @@
+/* Styles for the container of movie details container */
 .movieDetails-container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+/* Styles for the movie details */
 .movieDetails {
   width: 100%;
   max-width: 1110px;
@@ -12,6 +14,7 @@
   border-radius: 0.5rem;
   color: var(--unnamed-color-ffffff);
 }
+/* Styles for links inside movie details */
 .movieDetails a {
   text-decoration: none;
   color: var(--unnamed-color-grey);
@@ -19,10 +22,12 @@
   margin-bottom: 1.5rem;
   font-weight: var(--unnamed-font-weight-400);
 }
+/* Styles for title, director, producer section */
 .title-director-producer {
   text-align: center;
   margin: 0 0 30px;
 }
+/* Styles for headings within title, director, producer section */
 .title-director-producer h2 {
   font-family: "Star Jedi", var(--unnamed-font-family-OpenSans);
   font-size: var(--unnamed-font-size-40);
@@ -30,29 +35,35 @@
   letter-spacing: 2px;
   font-weight: var(--unnamed-font-weight-600);
 }
+/* Styles for paragraphs within title, director, producer section */
 .title-director-producer p {
   margin-bottom: 1rem;
   font-size: var(--unnamed-font-size-16);
   font-weight: var(--unnamed-font-weight-400);
 }
+/* Styles for description section */
 .desc {
   margin: 0 0 30px;
 }
+/* Styles for headings within description section */
 .desc h4 {
   margin: 0 0 15px;
   font-size: var(--unnamed-font-size-18);
   font-weight: var(--unnamed-font-weight-600);
   color: var(--unnamed-color-grey);
 }
+/* Styles for paragraphs within description section */
 .desc p {
   font-size: var(--unnamed-font-size-16);
   font-weight: var(--unnamed-font-weight-400);
 }
+/* Horizontal rule styling within movie details */
 .movieDetails .hr {
   background-color: var(--unnamed-color-gray);
   height: 2px;
   border: none;
 }
+/* Styles for sections like characters, planets, etc. */
 .characters,
 .planets,
 .species,
@@ -61,6 +72,7 @@
   margin: 0 0 30px;
   padding: 30px 0 0;
 }
+/* Styles for headings within sections like characters, planets, etc. */
 .characters h3,
 .planets h3,
 .species h3,
@@ -71,6 +83,7 @@
   font-weight: var(--unnamed-font-weight-600);
   color: var(--unnamed-color-grey);
 }
+/* Styles for unordered lists within sections like characters, planets, etc. */
 .characters ul,
 .planets ul,
 .species ul,
@@ -82,6 +95,7 @@
   grid-template-columns: repeat(3, 1fr);
   padding-left: 1.8rem;
 }
+/* Responsive design for smaller screens (max-width: 630px) */
 @media (max-width: 630px) {
   .movieDetails a {
     font-size: var(--unnamed-font-size-14);
@@ -114,6 +128,7 @@
     font-size: var(--unnamed-font-size-14);
   }
 }
+/* Further responsive design for very small screens (max-width: 425px) */
 @media (max-width: 425px) {
   .characters ul,
   .planets ul,

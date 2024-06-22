@@ -1,9 +1,11 @@
 import React from "react";
-import "./loader.css";
+import "./loader.css";// Importing styles from loader.css
 
+// Functional component named Loader
 const Loader = () => {
-  return (
-    <div className="svg-loading-icon-container">
+  return ( 
+    <div className="svg-loading-icon-container">{/* Container with a CSS class */}
+       {/* SVG element with a spinner class */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 612 612"
@@ -21,4 +23,4 @@ const Loader = () => {
   );
 };
 
-export default Loader;
+export default Loader;// Exporting Loader component

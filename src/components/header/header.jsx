@@ -1,9 +1,12 @@
 import React from "react";
 import "./header.css";
 
+// Define a functional component named Header
 const Header = () => {
   return (
+    // Return JSX representing the header section
     <header>
+      {/* SVG logo with specific viewBox and class */}
       <svg viewBox="0 0 1347.6 227.4" class="logo">
         <g id="Logo">
           <path
@@ -22,4 +25,5 @@ const Header = () => {
   );
 };
 
+// Export the Header component as the default export
 export default Header;

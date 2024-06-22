@@ -1,8 +1,11 @@
+/* Centers the loading icon container horizontally and adds space below */
 .svg-loading-icon-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
+
+/* Defines a rotation animation from 0 to 360 degrees */
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -11,6 +14,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles the SVG inside the container with specific width, yellow fill,
+   and applies the 'rotate' animation for 2 seconds in a linear fashion */
 .svg-loading-icon-container svg {
   width: 102.36px;
   fill: var(--unnamed-color-yellow);

@@ -1,10 +1,15 @@
+/* Styles for the container of the movie list */
 .movie-list {
   padding: 20px;
 }
+
+/* Styles for error message within the movie list */
 .movie-list .error-message {
   text-align: center;
   margin-bottom: 20px;
 }
+
+/* Styles for the container of movie items */
 .movie-list .movieItems {
   display: flex;
   flex-direction: row;
@@ -12,6 +17,8 @@
   justify-content: center;
   gap: 30px;
 }
+
+/* Styles for individual movie item */
 .movie-list .movie {
   position: relative;
   width: 350px;
@@ -28,20 +35,28 @@
   display: flex;
   align-items: center;
 }
+
+/* Hover and active styles for movie item */
 .movie-list .movie:hover,
 .movie-list .movie:active {
   transform: perspective(1px) translateZ(0px);
   box-shadow: transparent 0px 0px 10px 3px, rgb(48, 75, 230) 0px 0px 20px;
   transition: all 0.3s ease 0s;
 }
+
+/* Styles for movie content within each movie item */
 .movie-content {
   width: 100%;
 }
+
+/* Styles for title and release date section */
 .title-release_date {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.7rem;
 }
+
+/* Styles for movie title */
 .movie-list .movie h3 {
   font-family: "Star Jedi", var(--unnamed-font-family-OpenSans);
   font-size: var(--unnamed-font-size-22);
@@ -50,12 +65,15 @@
   cursor: pointer;
   font-weight: var(--unnamed-font-weight-700);
 }
+
+/* Styles for release date */
 .movie-list .release_date {
   font-size: var(--unnamed-font-size-14);
   font-weight: var(--unnamed-font-weight-normal);
   color: var(--unnamed-color-grey);
 }
 
+/* Styles for opening crawl text */
 .movie-list .opening_crawl {
   font-size: var(--unnamed-font-size-16);
   font-weight: var(--unnamed-font-weight-400);
@@ -68,11 +86,15 @@
   line-height: 1.5em;
   margin-bottom: 2.5rem;
 }
+
+/* Styles for horizontal rule */
 .movie-list .hr {
   background-color: rgb(142, 46, 46);
   height: 2px;
   border: none;
 }
+
+/* Styles for links within movie item */
 .movie-list .movie a {
   font-size: var(--unnamed-font-size-14);
   text-transform: capitalize;
