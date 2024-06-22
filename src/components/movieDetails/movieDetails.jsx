@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+// Import necessary modules and components from react, axios, and React Router
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "./movieDetails.css";
@@ -36,7 +37,7 @@ const MovieDetails = ({ movie }) => {
   return (
     <div className="movieDetails-container">
       <div className="movieDetails">
-        {/* Link to navigate back to the list */}
+        {/* Link to navigate back to the movie list page */}
         <Link to="/">← Back to list</Link>
         <div className="title-director-producer">
           {/* Movie title, director, and producer */}
@@ -104,4 +105,5 @@ const MovieDetails = ({ movie }) => {
   );
 };
 
+// Export the MovieDetails component as the default export
 export default MovieDetails;

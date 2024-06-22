@@ -1,4 +1,4 @@
-/* Styles for the container of movie details container */
+/* Styles for  movie details container */
 .movieDetails-container {
   width: 100%;
   display: flex;
@@ -22,12 +22,12 @@
   margin-bottom: 1.5rem;
   font-weight: var(--unnamed-font-weight-400);
 }
-/* Styles for title, director, producer section */
+/* Styles for title, director, producer container */
 .title-director-producer {
   text-align: center;
   margin: 0 0 30px;
 }
-/* Styles for headings within title, director, producer section */
+/* Styles for headings 2 within title, director, producer container */
 .title-director-producer h2 {
   font-family: "Star Jedi", var(--unnamed-font-family-OpenSans);
   font-size: var(--unnamed-font-size-40);
@@ -35,7 +35,7 @@
   letter-spacing: 2px;
   font-weight: var(--unnamed-font-weight-600);
 }
-/* Styles for paragraphs within title, director, producer section */
+/* Styles for paragraphs within title, director, producer container */
 .title-director-producer p {
   margin-bottom: 1rem;
   font-size: var(--unnamed-font-size-16);
@@ -45,7 +45,7 @@
 .desc {
   margin: 0 0 30px;
 }
-/* Styles for headings within description section */
+/* Styles for headings 4 within description section */
 .desc h4 {
   margin: 0 0 15px;
   font-size: var(--unnamed-font-size-18);
@@ -57,7 +57,7 @@
   font-size: var(--unnamed-font-size-16);
   font-weight: var(--unnamed-font-weight-400);
 }
-/* Horizontal rule styling within movie details */
+/* All Horizontal rule styling within movie details */
 .movieDetails .hr {
   background-color: var(--unnamed-color-gray);
   height: 2px;
@@ -72,7 +72,7 @@
   margin: 0 0 30px;
   padding: 30px 0 0;
 }
-/* Styles for headings within sections like characters, planets, etc. */
+/* Styles for headings 3 within sections like characters, planets, etc. */
 .characters h3,
 .planets h3,
 .species h3,
@@ -95,8 +95,8 @@
   grid-template-columns: repeat(3, 1fr);
   padding-left: 1.8rem;
 }
-/* Responsive design for smaller screens (max-width: 630px) */
-@media (max-width: 630px) {
+/* Responsive design for smaller screens (max-width: 767px) */
+@media (max-width: 767px) {
   .movieDetails a {
     font-size: var(--unnamed-font-size-14);
   }
@@ -128,8 +128,8 @@
     font-size: var(--unnamed-font-size-14);
   }
 }
-/* Further responsive design for very small screens (max-width: 425px) */
-@media (max-width: 425px) {
+/* Further responsive design for very small screens (max-width: 542px) */
+@media (max-width: 542px) {
   .characters ul,
   .planets ul,
   .species ul,

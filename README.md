@@ -11,10 +11,10 @@ Here is the link to the Star Wars Data API containing the data you need to fetch
 Compulsory Requirements for this Website
 
 - The list of ﬁlms should be in a grid format, as in the link above.
-- Each movie card should display the following: 
-- Name of the movie - The release date ○ The opening crawl that displays the ﬁrst 
-- A More info link that doesn’t go to any link 
-- Each move card should have a hover effect, as shown in the link above Optional Requirements 
+- Each movie card should display the following:
+- Name of the movie - The release date ○ The opening crawl that displays the ﬁrst
+- A More info link that doesn’t go to any link
+- Each move card should have a hover effect, as shown in the link above Optional Requirements
 - Each movie item may have a background.
   Please note:
 - Your work should not be in the main branch, but in a separate branch with a name of your own choosing.
@@ -40,6 +40,7 @@ Feature Requirements
 ## Submission
 
 What to submit in Citrone
+
 - Submit the main branch PR link: [main branch PR link](https://github.com/oge-dev/Star-Wars-franchise/)
 - Submit the working branch PR link: [My PR link](https://github.com/oge-dev/Star-Wars-franchise/tree/movies)
 - Host your work on Netlify/Github Pages and submit the hosted link: [My hosted link](https://star-wars-movies-byoge.netlify.app/)

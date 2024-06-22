@@ -18,7 +18,7 @@
 /* Styles the SVG inside the container with specific width, yellow fill,
    and applies the 'rotate' animation for 2 seconds in a linear fashion */
 .svg-loading-icon-container svg {
-  width: 102.36px;
+  width: 82.36px;
   fill: var(--unnamed-color-yellow);
   animation: rotate 2s linear infinite;
 }

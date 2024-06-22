@@ -1,10 +1,10 @@
-// Import necessary modules and components from React, React Router, and Axios
-import React, { useState, useEffect } from "react";
+// Import necessary modules and components from react, Axios, React Router, MovieDetails and Loader
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import MovieDetails from "../../components/movieDetails/movieDetails.jsx";
 import Loader from "../../components/loader/loader.jsx";
-import "./moviePage.css"
+import "./moviePage.css";
 
 // Define the MoviePage functional component
 const MoviePage = () => {
@@ -24,16 +24,13 @@ const MoviePage = () => {
         // Update the movie state with the fetched data
         setMovie(response.data);
         console.log(response.data);
-        // Clear any previous error messages
-        setError(null);
+        setError(null); // Clear any previous error messages
       })
       .catch((error) => {
         // Handle any errors that occur during the fetch
         console.error("Error fetching movie:", error);
-        // Update the error state with the error message
         setError(error.message);
-        // Clear the movie state if an error occurs
-        setMovie(null);
+        setMovie(null); // Clear the movie state if an error occurs
       })
       .finally(() => {
         // Set loading to false once the fetch is complete

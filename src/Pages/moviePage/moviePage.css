@@ -1,5 +1,5 @@
-/* Styles for error message within the movie list */
-.movie-list .error-message {
+/* Styles for error message within the Movie-Details-wrapper */
+.Movie-Details-wrapper .error-message {
     text-align: center;
     margin-bottom: 20px;
   }

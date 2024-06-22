@@ -1,9 +1,9 @@
-
-import { useState, useEffect } from "react";// Import useState and useEffect hooks from React
-import axios from "axios";// Import axios for making HTTP requests
-import { Link } from "react-router-dom";// Import Link component for navigation
-import Loader from "../../components/loader/loader.jsx";// Import Loader component for displaying a loading spinner
-import "./movieList.css";// Import CSS file for styling
+// Import necessary modules and components from react, axios, React Router, and Loader
+import { useState, useEffect } from "react";
+import axios from "axios";
+import { Link } from "react-router-dom";
+import Loader from "../../components/loader/loader.jsx";
+import "./movieList.css"; // Import CSS file for styling
 
 // Import background images
 import bgCard1 from "../../assets/bg-card-1.png";
@@ -17,7 +17,6 @@ import bgCard6 from "../../assets/bg-card-6.png";
 const backgrounds = [bgCard1, bgCard2, bgCard3, bgCard4, bgCard5, bgCard6];
 
 const MovieList = () => {
-  
   // Define state variables for movies, error, and loading status
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState(null);
@@ -25,12 +24,13 @@ const MovieList = () => {
 
   // useEffect hook to fetch movie data when the component mounts
   useEffect(() => {
+    // Make a GET request to fetch movie data from the API
     axios
       .get("https://swapi.dev/api/films/")
-      // Make a GET request to fetch movie data from the API
       .then((response) => {
         // On successful response, update movies state and reset error
         setMovies(response.data.results);
+        console.log(response.data);
         setError(null);
       })
       .catch((error) => {
@@ -89,5 +89,4 @@ const MovieList = () => {
   );
 };
 
-export default MovieList;
-// Export the MovieList component
+export default MovieList; // Export the MovieList component
